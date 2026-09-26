@@ -1,3 +1,8 @@
+/*
+Author: Muhammad ALliyan Fahad
+Assisted in making assignment of a fellow.
+Date:25-Sep-2026
+*/
 #include <iostream>
 using namespace std;
 
@@ -33,5 +38,6 @@ int main()
     cout << "|           \\/           |" << endl;
     cout << "+------------------------+" << endl;
 
+    cin.get();
     return 0;
 }
