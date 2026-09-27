@@ -37,7 +37,7 @@ int main()
         {
             invalidInput=false; 
             cout << "===================================="<<endl;
-            cout << "    SPIDERMAN CONSOLE ART Generator    "<<endl;
+            cout << "    SPIDERMAN CONSOLE ART GENERATOR    "<<endl;
             cout << "===================================="<<endl;
             cout << "Choose Your Preferred Art Style:"<<endl;
             cout << "1. Background Pixels (Solid Blocks)"<<endl;
@@ -209,7 +209,7 @@ int main()
 
     cout <<endl<<endl;
     cout << "=========================================================="<<endl;
-    cout <<"Thanks for using Spiderman Console Art Generator, Goodbye :(";
+    cout <<"Thanks for using SPIDERMAN CONSOLE ART GENERATOR, Goodbye :(";
     cout <<endl<<"==========================================================";
 
     cin.get(); // waits for the user to press Enter.
