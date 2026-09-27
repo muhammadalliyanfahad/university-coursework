@@ -36,9 +36,9 @@ int main()
         do
         {
             invalidInput=false; 
-            cout << "===================================="<<endl;
-            cout << "    SPIDERMAN CONSOLE ART GENERATOR    "<<endl;
-            cout << "===================================="<<endl;
+            cout << "======================================"<<endl;
+            cout << "   SPIDERMAN CONSOLE ART GENERATOR    "<<endl;
+            cout << "======================================"<<endl;
             cout << "Choose Your Preferred Art Style:"<<endl;
             cout << "1. Background Pixels (Solid Blocks)"<<endl;
             cout << "2. Hashtag Art (##)"<<endl;
@@ -160,7 +160,7 @@ int main()
 
         // this is the actual code printing the shape using the above color pallete.
     
-        cout<<endl<<"======================================================================"<<endl<<endl;
+        cout<<endl<<"================================================================"<<endl<<endl;
         // just wrote this numbering to easily compare the pixels with the grid boxes, it's 32 columns* 37 rows.
         //    1  2  3  4  5  6  7  8  9  10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32
         cout<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<endl;
@@ -199,7 +199,7 @@ int main()
         cout<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<K<<K<<K<<K<<K<<K<<K<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<endl;
         cout<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<_<<endl;
         
-        cout<<endl<<"======================================================================"<<endl;
+        cout<<endl<<"================================================================"<<endl;
         
         cout<<"Do you want to view this art in another style? (y/n): ";
         cin>>repeatProgram;
@@ -208,9 +208,9 @@ int main()
     while(repeatProgram=='y' || repeatProgram=='Y'); // This loop will go back to the art selection style.
 
     cout <<endl<<endl;
-    cout << "=========================================================="<<endl;
+    cout << "============================================================="<<endl;
     cout <<"Thanks for using SPIDERMAN CONSOLE ART GENERATOR, Goodbye :(";
-    cout <<endl<<"==========================================================";
+    cout <<endl<<"============================================================="<<endl;
 
     cin.get(); // waits for the user to press Enter.
     return 0; // sends 0 to OS which means successful program execution.
