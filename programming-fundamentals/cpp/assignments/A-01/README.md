@@ -1,18 +1,18 @@
-# 🎨 Console Art Generator
+# 🕷️ Spider-Man Console Art Generator
 
-A C++ console-based art system that renders manually constructed ASCII/pixel artwork in multiple visual styles.
+A C++ console-based art system that renders a manually constructed Spider-Man artwork in multiple visual styles.
 
-The project started as a Programming Fundamentals assignment to create a complex shape using C++. Instead of creating a single static shape, it was developed into an interactive console art system where the same underlying artwork can be rendered using different characters and color schemes.
+The project started as a Programming Fundamentals assignment to create a complex shape using C++. Instead of creating a single static shape, it was developed into an interactive console art system where the **same Spider-Man artwork can be rendered using different characters and color schemes**.
 
 ---
 
 ## 📌 Project Overview
 
-The **Console Art Generator** separates the artwork itself from the way it is visually rendered.
+The **Spider-Man Console Art Generator** separates the Spider-Man artwork itself from the way it is visually rendered.
 
-The user selects a rendering style, and the program applies that style to the same manually constructed artwork.
+The user selects a rendering style, and the program applies that style to the same manually constructed Spider-Man artwork.
 
-For example, the same artwork can be displayed using:
+For example, the artwork can be displayed using:
 
 * Solid background pixels
 * `##`
@@ -25,16 +25,16 @@ For example, the same artwork can be displayed using:
 * `&&`
 * `%%`
 
-This allows multiple visual representations to be generated without recreating the artwork for every style.
+This allows the same Spider-Man artwork to have multiple visual representations without recreating the artwork for every style.
 
 ---
 
 ## ✨ Features
 
-* 🖼️ Manually constructed console/pixel artwork
+* 🕷️ Manually constructed Spider-Man console/pixel artwork
 * 🎨 Multiple rendering styles
 * 🌈 ANSI-based foreground and background colors
-* 🔄 Interactive style selection
+* 🔄 Interactive rendering-style selection
 * 🔁 Option to render the artwork repeatedly
 * 🛡️ Basic input validation
 * 🧹 Input-buffer handling and recovery
@@ -85,19 +85,19 @@ Validate input
   ↓
 Configure rendering characters/colors
   ↓
-Render the same artwork
+Render Spider-Man artwork
   ↓
 Ask whether to render again
   ↓
 Repeat or exit
 ```
 
-The artwork itself is manually constructed as a grid. Instead of storing a completely different artwork for every style, the program assigns different rendering values to the artwork's components.
+The Spider-Man artwork is manually constructed as a grid. Instead of storing a completely different version of the artwork for every style, the program assigns different rendering values to the artwork's components.
 
 Conceptually:
 
 ```text
-              Artwork Structure
+             Spider-Man Artwork
                      │
           ┌──────────┼──────────┐
           ↓          ↓          ↓
@@ -110,7 +110,7 @@ Conceptually:
              Console Rendering
 ```
 
-This means the **structure of the artwork and its visual representation are treated separately**.
+This means the **structure of the Spider-Man artwork and its visual representation are treated separately**.
 
 ---
 
@@ -131,7 +131,7 @@ The current implementation provides ten rendering styles:
 | 9  | Ampersand `&&`          |
 | 10 | Percentage `%%`         |
 
-Each style changes the characters and/or terminal formatting used to render the artwork.
+Each style changes the characters and/or terminal formatting used to render the Spider-Man artwork.
 
 ---
 
@@ -180,12 +180,13 @@ The OS-specific operation is isolated inside a function so that the rest of the 
 
 ## 📁 Project Structure
 
-The project currently consists primarily of the C++ source file:
+The standalone project currently consists primarily of the C++ source file:
 
 ```text
-Console-Art-Generator/
+A-01/
 │
-├── ConsoleArtGenerator.cpp
+├── A-01.cpp
+├── A-01.exe
 └── README.md
 ```
 
@@ -198,13 +199,13 @@ Additional screenshots or demonstrations can be added later if the project is ex
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/muhammadalliyanfahad/university-coursework.git
 ```
 
 ### 2. Navigate into the project
 
 ```bash
-cd Console-Art-Generator
+cd programming-fundamentals/cpp/assignments/A-01
 ```
 
 ### 3. Compile
@@ -212,13 +213,13 @@ cd Console-Art-Generator
 Using MinGW/GCC:
 
 ```bash
-g++ ConsoleArtGenerator.cpp -o ConsoleArtGenerator
+g++ A-01.cpp -o A-01
 ```
 
 ### 4. Run
 
 ```bash
-ConsoleArtGenerator
+A-01
 ```
 
 > **Note:** The current implementation was developed and tested primarily with Windows CMD and uses Windows-specific behavior alongside ANSI escape sequences.
@@ -237,20 +238,24 @@ The project also demonstrates an important programming principle:
 
 > **The same underlying data or structure can often be represented in multiple ways by separating the underlying structure from its presentation.**
 
+In this project, the manually constructed Spider-Man artwork remains the underlying structure while the selected rendering style determines how that structure is displayed in the console.
+
 ---
 
 ## 🔧 Future Improvements
 
 Possible future improvements include:
 
-* Add more artwork
+* Add additional Spider-Man artwork
 * Allow the user to choose between different artworks
 * Add additional rendering styles
 * Separate artwork data from rendering logic more cleanly
 * Add a configuration system for colors and characters
 * Improve cross-platform terminal support
 * Add screenshots/GIF demonstrations
-* Expand the project into a general-purpose console-art generator
+* Expand the system into a general-purpose console-art generator
+
+The final direction could evolve from a **Spider-Man-specific console art generator** into a more general system capable of rendering multiple manually constructed artworks.
 
 ---
 
@@ -267,4 +272,4 @@ University of Engineering and Technology, Lahore
 
 This project originated from a **Programming Fundamentals assignment** requiring the creation of a complex shape using C++.
 
-Rather than producing only a static shape, the assignment was expanded into an interactive console-art system to explore additional C++ concepts, terminal rendering, input handling, debugging, and development workflow.
+Rather than producing only a static shape, the assignment was expanded into an interactive Spider-Man console-art system to explore additional C++ concepts, terminal rendering, input handling, debugging, and development workflow.
