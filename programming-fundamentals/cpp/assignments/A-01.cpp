@@ -203,6 +203,7 @@ int main()
         
         cout<<"Do you want to view this art in another style? (y/n): ";
         cin>>repeatProgram;
+        cin.ignore(1000, '\n'); // removes the remaining chracters from the input buffer.
     }
     while(repeatProgram=='y' || repeatProgram=='Y'); // This loop will go back to the art selection style.
 
@@ -211,7 +212,6 @@ int main()
     cout <<"Thanks for using Spiderman Console Art System, Goodbye :(";
     cout <<endl<<"==========================================================";
 
-    cin.ignore(); // removes the remaining newline from the input buffer.
     cin.get(); // waits for the user to press Enter.
     return 0; // sends 0 to OS which means successful program execution.
 }
