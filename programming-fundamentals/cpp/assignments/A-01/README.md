@@ -186,7 +186,6 @@ The standalone project currently consists primarily of the C++ source file:
 A-01/
 │
 ├── A-01.cpp
-├── A-01.exe
 └── README.md
 ```
 
