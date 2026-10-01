@@ -1,6 +1,6 @@
 /*
-Author: Muhammad ALliyan Fahad
-Assisted in making assignment of a fellow.
+Author: Muhammad Alliyan Fahad
+Made assignment for a fellow.
 Date:25-Sep-2026
 */
 #include <iostream>
