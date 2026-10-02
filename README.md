@@ -34,6 +34,6 @@ This repository serves as a chronological record of my university work and learn
 
 ---
 
-**Student:** Muhammad Alliyan Fahad
-**Program:** BS Computer Science
+**Student:** Muhammad Alliyan Fahad\
+**Program:** BS Computer Science\
 **University:** University of Engineering and Technology (UET), Lahore
